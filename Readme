@@ -21,7 +21,7 @@ This project demonstrates how to analyze and visualize space utilization in a wa
 ## Project Structure
 
 ├── data/
-│ └── warehousedata.csv
+│ └── warehousedata.c3d
 ├── src/
 │ ├── extract_root_positions.py
 │ └── generate_heatmap.py
