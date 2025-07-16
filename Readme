@@ -1,0 +1,33 @@
+# Warehouse Space Utilization with PyMo
+
+This project demonstrates how to analyze and visualize space utilization in a warehouse using motion capture data and the pymo library. The goal is to generate heatmaps that show high-density movement areas, helping optimize warehouse layout, improve traffic flow, and identify potential safety hazards.
+
+## Objectives
+
+- Load motion capture data (e.g., .c3d format)
+- Extract root joint or relevant positions (such as pelvis)
+- Convert data into a unified 2D coordinate system
+- Generate and visualize a 2D heatmap of movement paths
+
+## Tech Stack
+
+- Python 3.x
+- pymo
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn (optional for smoothing or clustering)
+
+## Project Structure
+
+├── data/
+│ └── warehousedata.csv
+├── src/
+│ ├── extract_root_positions.py
+│ └── generate_heatmap.py
+├── notebooks/
+│ └── warehouse_analysis.ipynb
+├── README.md
+├── requirements.txt
+└── heatmap_output.png
+
