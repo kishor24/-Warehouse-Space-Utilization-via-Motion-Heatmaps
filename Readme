@@ -4,8 +4,8 @@ This project demonstrates how to analyze and visualize space utilization in a wa
 
 ## Objectives
 
-- Load motion capture data (e.g., .c3d format)
-- Extract root joint or relevant positions (such as pelvis)
+- Load motion capture data (c3d format)
+- Extract root joint or relevant positions
 - Convert data into a unified 2D coordinate system
 - Generate and visualize a 2D heatmap of movement paths
 
