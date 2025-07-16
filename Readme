@@ -11,7 +11,7 @@ This project demonstrates how to analyze and visualize space utilization in a wa
 
 ## Tech Stack
 
-- Python 3.x
+- Python > 3.x
 - pymo
 - NumPy
 - Matplotlib
